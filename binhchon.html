@@ -8,23 +8,26 @@
 <body>
  <p>BÌNH CHỌN</p>  
 <div id="binhchon">
-  <form id="form3" name="form3" action="kqbc.php" method="post" target="_blank">
-    Theo bạn, thu nhập trên 500,000đ/tháng thì không được xem là phụ thuộc?
-    
+  <form id="formbinhchon" name="formbinhchon" action="kqbc.php" method="post" target="_blank">
+    <p>Theo bạn, thu nhập trên 500,000đ/tháng thì không được xem là phụ thuộc?
+      <input id="idBC" type="hidden" value="5" name="idBC" />
+    </p>
     <p>
       <label>
         <input id="radio" type="radio" value="15" name="idPA" />
       </label>
-      Đồng ý<br />
-  <label>
+      Đồng ý</p>
+    <p>
+      <label>
         <input id="radio" type="radio" value="16" name="idPA" />
       </label>
       Không đồng 
-      ý<br />
+      ý</p>
+    <p>
       <label>
         <input id="radio" type="radio" value="17" name="idPA" />
       </label>
-    Ý kiến khác</p>
+      Ý kiến khác</p>
     <p>
       <label>
         <input id="button" onclick="kqbc(idPA)" type="button" value="Xem kết quả" name="Button" />

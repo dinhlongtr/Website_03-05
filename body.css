@@ -1,0 +1,49 @@
+@charset "utf-8";
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+#container {
+	border: 2px solid #00CCFF#00CCFF;
+}
+#header {
+	background-image: url(images/header01.jpg);
+}
+#thongbao {
+	color: #FFFFFF;
+	font-weight: bold;
+	background-color: #0165B1;
+}
+#cuon {
+	width: 95%;
+}
+#menu a{
+	background-color: #0487CD;
+	color: #FFFFFF;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+#menu a:hover {
+	background-color: #00529E;
+	color: #F6F4F7;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: underline;
+}
+#right {
+	background-image: url(images/bg_right.jpg);
+}
+#jumpMenu {
+	background-color: #46bbde;
+	color: #f5fbfb;
+	width: 100px;
+}
